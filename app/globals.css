@@ -1,26 +1,752 @@
-@import "tailwindcss";
+ .box {
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    background-color: #2b3549;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+    scroll-behavior: smooth;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.dp {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: relative;
+    left: 5%;
+}
+
+.jagdeep {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.navname {
+    color: #4c96ED;
+    position: relative;
+    left: 6%;
+    font-size: xx-large;
+}
+
+.navbar {
+    position: relative;
+    left: 20%;
+    gap: 10%;
+    display: flex;
+    text-decoration: none;
+}
+
+.link {
+    color: white;
+    font-size: 17px;
+}
+
+
+.homenav {
+    color: #4c96ED;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4c96ED;
+    text-decoration: underline;
+}
+
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: #1B2737;
+    display: flex;
+}
+
+.bigname {
+
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 60px; */
+
+}
+
+.namejagdeep {
+    color: white;
+    font-size: 80px;
+
+
+}
+
+.skill {
+    color: #4c96ED;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+
+}
+
+.hire {
+    background-color: rgb(85, 85, 228);
+    color: white;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+.hire:hover {
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.view {
+
+    color: #4c96ED;
+    background-color: #2b3549;
+    padding: 15px 15px;
+    border-radius: 15px;
+    border: 1px, solid, #4c96ED;
+
+}
+
+.view:hover {
+    background-color: #1b2737;
+}
+
+.mainbuttons {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+}
+
+.mainimage {
+    height: 100%;
+    width: 50vw;
+  
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.bigimage {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.bigimage:hover {
+    box-shadow: 4px 4px 10px greenyellow;
+}
+
+
+
+ 
+#about {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #2b3549, #1f2636);
+    display: flex;
+    flex-direction: column;
+    /* padding: 60px 0; */
+}
+
+/* Heading */
+.aboutme {
+  color: white; height: 20vh; align-items: end; justify-content: center; display: flex; margin-bottom: 40px;
+}
+
+/* Content Container */
+.theory {
+    color: #dcdcdc;
+    width: 65%;
+    align-self: center;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Paragraph spacing */
+.bio1,
+.bio2,
+.bio3,
+.bio4 {
+    margin-bottom: 22px;
+}
+
+/* Highlight strong text */
+.theory strong {
+    color: #6ea8ff;
+}
+
+/* CV Button Box */
+.cvbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    margin-bottom: 15px;
+}
+
+/* CV Button */
+.cv {
+    background: linear-gradient(45deg, #4e73df, #6f42c1);
+    color: white;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.cv:hover {
+    background: transparent;
+    border: 1px solid #6ea8ff;
+    color: #6ea8ff;
+}
+
+#skills {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #1b2737;
+  
+}
+
+.skillme {
+    color: white;
+
+    height: 20vh;
+ 
+    align-items: end;
+    justify-content: center;
+    display: flex;
+ 
+}
+
+.tools {
+    display: flex;
+   
+    height: 100%;
+    gap: 5%;
+    justify-content: center;
+    padding: 40px 1px;
+}
+
+.same1 {
+   
+    width: 25%;
+    border-radius: 20px;
+    background-color: #2b3549;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.same1:hover {
+    border: 1px solid #4c96ED;
+}
+
+.fronted {
+    color: #4c96ED;
+    text-align: center;
+ margin-bottom: 20px;
+    width: 100%;
+   
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontedtools {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+
+
+
+
+
+
+ 
+/* professional shuru hai */
+#experience {
+   min-height: 100vh;
+    width: 100%;
+    background-color: #2c3952;
+}
+
+.experienceme {
+    color: white;
+
+    height: 18vh;
+    /* background-color: #4c96ED; */
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.experiencebottom {
+    /* height: 170vh; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.same {
+    /* height: 162px; */
+    width: 80%;
+    background-color: #222c3f;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.parentcart1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.childcart1 {
+    color: #4c96ED;
+}
+
+.location {
+    color: white;
+    font-size: 24px;
+
+}
+
+.ksj {
+    color: white;
+    margin-left: 7px;
+    font-size: 24px;
+}
+
+.calender {
+    color: white;
+    font-size: 24px;
+}
+
+.present {
+    color: white;
+    margin-left: 7px;
+    font-size: 24px;
+}
+
+
+.same:hover {
+    border: 1px solid #4c96ED;
+}
+
+.education {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.school {
+    color: white;
+    margin-left: 7px;
+    font-size: 19px;
+}
+
+.period {
+    color: white;
+    margin-left: 7px;
+    font-size: 19px;
+}
+
+#contact {
+    min-height: 110vh;
+    width: 100%;
+    background-color: #182132;
+}
+
+#hire {
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+    /* padding: 25px 1px; */
+}
+
+.workbottom {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+    /* background-color: #155dfd; */
+    /* padding: 20px 1px; */
+}
+
+.contactcart1 {
+    background-color: #1e2a3a;
+    /* height: 450px; */
+    width: 33%;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+    
+}
+
+.contactcart2 {
+    background-color: #1e2a3a;
+    /* height: 450px; */
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contactcart1:hover {
+    border: 1px solid #4c96ED;
+}
+
+.contactcart2:hover {
+    border: 1px solid #4c96ED;
+}
+
+.connect {
+    color: #4c96ED;
+    margin-bottom: 20px;
+
+}
+
+.contactchild {
+    width: 100%;
+    /* background-color: aqua; */
+    margin-left: 15px;
+    /* height: 400px; */
+    margin-top: 15px;
+
+}
+
+.connectbio1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.connectbio2 {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.maindetail {
+    /* background-color: #155dfd; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personaldetail {
+    /* background-color: #155dfd; */
+    display: flex;
+    gap: 10px;
+
+
+
+}
+
+.phone {
+    color: #4c96ED;
+    font-size: 18px;
+
+}
+
+.num {
+    color: white;
+    font-size: 18px;
+}
+
+.envelop {
+    color: #4c96ED;
+    font-size: 18px;
+}
+
+.gmail {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    /* background-color: #155dfd; */
+    display: flex;
+    gap: 20px;
+}
+
+.insta {
+    color: white;
+    font-size: 26px;
+}
+
+
+
+.name {
+    background-color: #364153;
+    color: white;
+    /* padding: 10px 70px; */
+    width: 90%;
+    height: 40px;
+    border-radius: 13px;
+    margin-bottom: 26px;
+    padding-left: 7px;
+    border: none;
+}
+
+.textarea {
+    background-color: #364153;
+    color: white;
+    padding: 5px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+    border: none;
+    width: 90%;
+    height: 40px;
+
+}
+
+.collab {
+
+    background-color: #155dfd;
+    width: 85%;
+    height: 40px;
+    border-radius: 13px;
+    margin-left: 8px;
+    color: white;
+    font-size: 20px;
+    border: none;
+   
+}
+
+.collab:hover {
+    background-color: #1354e0;
+}
+
+.fotter {
+    background-color: #263249;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbottom {
+    color: white;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        justify-content: space-evenly;
+        display: flex;
+        width: 100%;
+        /* align-items: start; */
+        /* height: 7vh; */
+        /* background-color: #155dfd; */
+    }
+
+    .dp {
+        position: relative;
+        left: 1%;
+    }
+
+    .navname {
+        position: relative;
+        left: 2%;
+        align-self: center;
+        /* word-break: break-all; */
+        font-size: 27px;
+
+    }
+
+    /* .navbar {
+        display: none;
+
+    } */
+
+    #home {
+        flex-direction: column;
+        /* height: 90vh; */
+        width: 100%;
+          
+             
+
+
+    }
+
+    .bigname {
+           width: 100%;
+        /* height: 40vh; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+
+    
+    }
+
+     .skill{
+        font-size: 28px;
+        /* padding: 10px 0px; */
+        text-align: center;
+        /* align-items: start; */
+       
+    }
+
+   .mainbuttons{
+    /* align-items: start; */
+    justify-content: center;
+    /* display: flex; */
+    /* background-color: #1354e0; */
+
+   } 
+
+    .namejagdeep {
+        font-size: 50px;
+        text-align: center;
+        /* align-items: center; */
+        justify-content: center; 
+
+    }
+
+    .bigimage {
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+
+    }
+
+    .mainimage {
+        /* display: flex; */
+        /* justify-content: start; */
+        align-items: start;
+        /* margin-left: 40px; */
+        width: 100%;
+      
+    }
+
+    .aboutme {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        /* right: 24%; */
+        margin-bottom: 10px;
+
+    }
+
+    .theory {
+        font-size: 24px;
+        width: 95%;
+    }
+    .cvbox{
+        /* padding: 16px; */
+        margin-bottom: 10px;
+    }
+
+    .boxskill{
+        font-size: 30px;
+        text-align: center;
+    }
+    .lets{
+        text-align: center;
+    }
+
+   
+    .prof{
+        /* display: flex; */
+        text-align: center;
+        /* background-color: #155dfd; */
+
+    }
+
+    .same{
+        
+    
+    width: 90%;
+    /* background-color: #155dfd; */
+    /* min-height: 120px; */
+ 
+
+    
+   
+    }
+
+ 
+    
+    
+    .same1{
+        /* background-color: red; */
+        width: 90%;
+    }
+
+    .workbottom{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tools{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+
+    
+    .education{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+   
+    .contactcart1 {
+    width: 90%;
+}
+
+.contactcart2 {
+ 
+    width: 90%;
+    margin-bottom: 10px;
+}
 }
