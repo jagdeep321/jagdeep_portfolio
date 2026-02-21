@@ -46,7 +46,7 @@ const About = ()=>{
 
     </div>
     <div className="cvbox" >
-      <a className="cv" href="/Jagdeep_CV.pdf"  target="_blank"    download="Jagdeep_CV.pdf"   rel="noopener noreferrer">VISIT CV</a>
+      <a className="cv" href="/Jagdeep_CV.pdf"  target="_blank"    download="Jagdeep_CV.pdf"   rel="noopener noreferrer">DOWNLOAD CV</a>
     </div>
 
 
