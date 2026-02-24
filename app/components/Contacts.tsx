@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import emailjs from '@emailjs/browser';
 import { useRef, useState, FormEvent } from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
@@ -32,7 +32,7 @@ const Contacts: React.FC = () => {
 
   const formRef = useRef<HTMLFormElement | null>(null);
 
-  const sendEmail = (e: FormEvent<HTMLFormElement>) => {
+  const sendEmail = (e: any) => {
     e.preventDefault();
 
     if (!form.name && !form.email && !form.num && !form.msg) {

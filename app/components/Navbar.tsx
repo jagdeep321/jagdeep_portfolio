@@ -1,10 +1,10 @@
+// "use client"
 import { Anchor, Stack } from "@mantine/core";
 import jagdeep from "./jagdeep.jpg";
 import Image from "next/image";
 import { useMediaQuery } from "@mantine/hooks";
 import { useState } from "react";
 import { IoMenu, IoClose, IoHome, IoPerson, IoCodeSlash, IoBriefcase, IoFolderOpen, IoConstruct, IoCall, IoBook } from "react-icons/io5";
-// "use client"
 const Navbar = ()=>{
 
    const isMd = useMediaQuery('(max-width: 600px)');
