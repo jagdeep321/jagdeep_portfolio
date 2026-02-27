@@ -41,6 +41,11 @@ export const metadata: Metadata = {
     locale: "en_IN",
     type: "website",
   },
+
+   verification: {
+    google: "aBk59i1vYMUCiO9l_OIQUiJtQNXbKvV89ylaxnEeR1E",
+  }, 
+  
   robots: {
     index: true,
     follow: true,
