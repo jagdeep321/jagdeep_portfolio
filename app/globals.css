@@ -70,8 +70,6 @@ a:hover {
     color: #4c96ED;
     text-decoration: underline;
 }
-
-
 #home {
     width: 100%;
     height: 100vh;
@@ -160,8 +158,6 @@ a:hover {
 .bigimage:hover {
     box-shadow: 4px 4px 10px greenyellow;
 }
-
-
 
  
 #about {

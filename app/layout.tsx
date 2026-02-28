@@ -18,10 +18,10 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jagdeep.online"),
   title: {
     default: "Jagdeep Developer | Full Stack Web Developer",
-    template: "%s | Jagdeep Developer",
+    template: "%s | Jagdeep Developer  | Full Stack Web Developer",
   },
   description:
-    "Jagdeep Developer is a professional Full Stack Web Developer. Currently pursuing BCA at Punjabi University Patiala. متخصص in modern web development, SEO, and scalable applications.",
+    "Jagdeep Developer is a passionate and professional Full Stack Web Developer, currently pursuing a Bachelor of Computer Applications (BCA) from Punjabi University Patiala. He specializes in modern web development technologies, search engine optimization (SEO), and building scalable, high-performance web applications. With a strong focus on clean code, user experience, and innovative solutions, Jagdeep aims to create impactful digital products that deliver real business value.",
   keywords: [
     "Jagdeep Developer",
     "Jagdeep Web Developer",
