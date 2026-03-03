@@ -31,13 +31,13 @@ export const metadata: Metadata = {
     "Next.js Developer",
   ],
   authors: [{ name: "Jagdeep" }],
-  creator: "Jagdeep Developer",
+  creator: "Jagdeep Developer | Full Stack Web Developer ",
   openGraph: {
     title: "Jagdeep Developer | Full Stack Web Developer",
     description:
       "Official website of Jagdeep Developer. Full Stack Web Developer building modern and SEO optimized websites.",
     url: "https://jagdeep.online",
-    siteName: "Jagdeep Developer",
+    siteName: "Jagdeep Developer | Full Stack Web Developer",
     locale: "en_IN",
     type: "website",
   },
